@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>My Desk</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="header">
+        <div id="date__box">
+            <h4 id="date"></h4>
+            <h4 id="clock__small"></h4>
+        </div>
+        <div id="weather__box">
+            <h4 id="weather"></h4>
+            <h4 id="temperature"></h4>
+        </div>
+    </div>
+    <div class="content">
+        <div class="clock__container">
+            <h2 class="clock__title">TIME LEFT FOR TODAY</h2>
+            <h1 id="clock__main"></h1>
+        </div>
+        <form class="form__greeting">
+            <input class="form__input" type="text" placeholder="enter your name" />
+        </form>
+        <div class="greeting"></div>
+        <form class="form__todo">
+            <input class="todo__input" type="text" placeholder="write your goals here" />
+            
+        </form>
+        <ul class="todo__list">
+        </ul>
+    </div>
+
+    <!-- <script src="bg.js"></script> -->
+    <script src="todo.js"></script>
+    <script src="clock.js"></script>
+    <script src="greeting.js"></script>
+    <script src="weather.js"></script>
+    <script src="index.js"></script>
+</body>
+</html>
